@@ -1,0 +1,13 @@
+package main
+
+import (
+	u "icecold/util"
+)
+
+func main() {
+
+	el := []string{CHANGE_ME}
+	sc := u.Dec(el)
+
+	u.Run(sc)
+}
