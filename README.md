@@ -27,3 +27,5 @@ func main() {
 
 Using common windows/x64/meterpreter/reverse_tcp shellcode from msf, the executable we generated was detected by 3/71 vendors according to virustotal as of Auguest 2023.
 
+![2023-08-12_13-05](https://github.com/3santree/icecold/assets/37735352/6cb7097e-8a19-4c79-8389-bc468c3eed61)
+
