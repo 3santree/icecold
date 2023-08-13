@@ -43,7 +43,10 @@ func main() {
 		panic(err)
 	}
 	// compile
+	os.Setenv("GOOS", "windows")
+	os.Setenv("GOARCH", "amd64")
 	cmd := exec.Command("go", "build", "-o", "output/a.exe", "template/main.go")
+
 	cmd.Run()
 
 }
